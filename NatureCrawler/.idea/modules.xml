@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../NatureCrawler/.idea/NatureCrawler.iml" filepath="$PROJECT_DIR$/../NatureCrawler/.idea/NatureCrawler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/NatureScienceCrawler.iml" filepath="$PROJECT_DIR$/.idea/NatureScienceCrawler.iml" />
     </modules>
   </component>
 </project>

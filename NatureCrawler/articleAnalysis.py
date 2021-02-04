@@ -1,6 +1,5 @@
 import json
 import collections
-import matplotlib.pyplot as plt
 
 f = open('article.json')
 data = json.load(f)
@@ -34,8 +33,6 @@ for entry in data:
 cnt_authors = collections.Counter(authors)
 del cnt_authors[None]
 print("The top 10 most common corresponding authors: " + str(cnt_authors.most_common(10)) + "\n")
-plt.hist(cnt_authors.most_common(10))
-plt.show()
 
 # count subjects
 cnt_subjects = collections.Counter(subjects)
