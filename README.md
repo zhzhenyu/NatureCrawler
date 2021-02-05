@@ -27,5 +27,5 @@ and scrapy==2.4.1. A summary of the packages is added in the file
    and save the crawled results to the "article.json" file.
 
 3. Last, the user can run the analysis script following 
-   `python article.json` in the terminal to perform some
+   `python articleAnalysis.py` in the terminal to perform some
    toy analysis with the crawled data. 
